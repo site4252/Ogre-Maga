@@ -80,6 +80,7 @@ body {
 
 .ogremain {
   max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   padding: 0px 15px;
 }
@@ -94,9 +95,26 @@ body {
     max-width: 750px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .ogremain {
+    padding: 0 10px;
+  }
+  .hero_title {
+    font-size: 32px;
+    text-align: center;
+  }
+  .hero_nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .hero_nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  img {
     max-width: 100%;
+    height: auto;
   }
 }
 .hero_title {
