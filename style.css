@@ -113,6 +113,7 @@ body {
     gap: 10px;
   }
   .hero_text {
+    flex-direction: column;
     justify-content: center;
     gap: 20px;
   }
@@ -240,6 +241,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  flex-wrap: wrap;
   border-radius: 5px;
   box-shadow: 0px 0px 10px gold;
   padding: 40px 60px;
@@ -285,6 +287,7 @@ body {
 .items_subtitle {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   font-size: 40px;
   font-style: italic;
   color: rgba(218, 165, 32, 0.616);
@@ -294,8 +297,10 @@ body {
 
 .items_image {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px gold;
   padding: 40px 60px;
